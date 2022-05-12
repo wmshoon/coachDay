@@ -1,8 +1,15 @@
 html {
+  margin: 0;
+  padding: 0;
   scroll-behavior: smooth;
 }
 body {
+  margin: 0;
+  padding: 0;
   background-color: rgb(240, 240, 240);
+}
+canvas {
+  display: block;
 }
 h1 {
   text-align: center;
@@ -19,60 +26,58 @@ a:hover {
   transform: scale(1.2, 1.2);
 }
 .sidebar {
+  font-size: 120%;
   text-align: center;
+  margin-top: 150px;
   padding: 10px;
   width: 100px;
-  top: 300px;
   left: 10px;
   background-color: black;
   position: fixed;
   border-radius: 5px;
   opacity: 0.5;
-  text-decoration: none;
 }
 .weLoveYouCoach {
-  border-top: 2px solid black;
   border-bottom: 2px solid black;
-  padding: 600px;
 }
 #emily {
   border-top: 2px solid black;
   border-bottom: 2px solid black;
-  padding: 600px;
+  padding: 400px;
 }
 #bebe {
   border-bottom: 2px solid black;
-  padding: 600px;
+  padding: 400px;
 }
 #edward {
   border-bottom: 2px solid black;
-  padding: 600px;
+  padding: 400px;
 }
 #youn {
   border-bottom: 2px solid black;
-  padding: 600px;
+  padding: 400px;
 }
 #richard {
   border-bottom: 2px solid black;
-  padding: 600px;
+  padding: 400px;
 }
 #sarah {
   border-bottom: 2px solid black;
-  padding: 600px;
+  padding: 400px;
 }
 #joshua {
   border-bottom: 2px solid black;
-  padding: 600px;
+  padding: 400px;
 }
 #luna {
   border-bottom: 2px solid black;
-  padding: 600px;
+  padding: 400px;
 }
 #david {
   border-bottom: 2px solid black;
-  padding: 600px;
+  padding: 400px;
 }
 #rebecca {
   border-bottom: 2px solid black;
-  padding: 600px;
+  padding: 400px;
 }
